@@ -1,0 +1,8 @@
+venv
+pycache
+.env
+.pyenv
+.DS_Store
+build
+.vscode
+.cache/
