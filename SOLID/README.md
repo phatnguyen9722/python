@@ -13,3 +13,6 @@
 - To fix this issue and make your design more robust, split the class into 2 smaller, more focused classes.  
 #### In [S]-[After]-Example.py
 - We have two smaller classes, each having only a single responsibility. FileManager takes care of managing a file, while ZipFileManager handles the compression and depression of a file using ZIP format. These 2 classes are smaller, so they're more manageable. They are also easier to reason about, test and debug.
+## Open-Closed Principle (OCP)
+- The open-closed principle (OCP) for object-oriented design was originally introduced by Bertrand Meyer in 1988 and means that: </br>
+`Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.`
